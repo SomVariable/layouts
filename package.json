@@ -1,0 +1,15 @@
+{
+  "name": "maket",
+  "version": "1.0.0",
+  "description": "Responsive layout based on the principle mobile first",
+  "main": "app.js",
+  "scripts": {
+    "compile-scss": "sass scss/app.scss css/style.css",
+    "watch-scss": "sass scss/app.scss css/style.css --watch"
+  },
+  "author": "Ihor Havrikov",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}
